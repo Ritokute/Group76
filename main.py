@@ -8,7 +8,7 @@ env = gym.make(
     "gym_cutting_stock/CuttingStock-v0",
     render_mode="human",  # Comment this line to disable rendering
 )
-NUM_EPISODES = 4
+NUM_EPISODES = 100
 
 if __name__ == "__main__":
     # Reset the environment
